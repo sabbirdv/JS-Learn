@@ -1,13 +1,5 @@
-const test = [ "Sabbir",
-    616300, 
-    "Hasan",
-    function(f,q,v){
-        return (f + q) + (f*v) ;
-    }
-    ];
-
-    
-
-console.log(test[3](3,4,2))
-
-     
+const test = ["red" , "blue" ,"green" , "orange"];
+test[4] = "purple";
+test[5] = "pink";
+test[6] = "white"
+console.log(test[test.length-1]);
