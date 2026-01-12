@@ -1,7 +1,3 @@
-function timeBtn(){
-    alert("Are you sure!?")
-    document.getElementById("demo").innerHTML=new Date().toLocaleTimeString('en-US');
-}
-function inputTry(){
-    document.getElementById("input").style= "background-color:lightgreen";
-}
+let str = "my name is Sabbir hasan.";
+let str2 = `Hi there ${str} I am a student`
+console.log(str2);
