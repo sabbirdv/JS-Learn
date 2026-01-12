@@ -1,8 +1,13 @@
-let str = "my name is Sabbir hasan.";
-let str2 = `Hi there ${str} I am a student`
-console.log(str2);
+const test = [ "Sabbir",
+    616300, 
+    "Hasan",
+    function(f,q,v){
+        return (f + q) + (f*v) ;
+    }
+    ];
 
-let price = 20;
-let vat = 0.26;
-let total = `The price of the product is ${price} & the total price is ${price + vat}`;
-console.log(total);
+    
+
+console.log(test[3](3,4,2))
+
+     
