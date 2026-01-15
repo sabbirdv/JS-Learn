@@ -1,27 +1,11 @@
-const test1 = ["red" , "blue" ,"green" , "orange" , "black", "white"];
-const test2 = [2,4,21,5,10,8]
+const d = new Date();
 
-const test2New = test2.find(myFunction);
+const months = ["January", "February", "March", "April", "May" , "June", "July", "August", "September", "October", "November", "December"];
 
-function myFunction(value, index, array){
-    return value > 10 ;
-}
-
-console.log(test2New);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// months[0]="sunday"
+// months.splice(0,1,"Sunday");
+console.log(months);
+document.getElementById("demo").innerHTML= months[d.getMonth()]  + d.getDate() ;
 
 
 
